@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  angular-server:
+    image: 'lrabbt/angular-cli:node-10.7.0-slim'
+    volumes:
+      - ./:/app
